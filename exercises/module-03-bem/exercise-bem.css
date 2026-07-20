@@ -17,7 +17,7 @@
   color: red;
 }
 
-.card--dark.card__title {
+.card--dark .card__title {
   color: white;
 }
 
@@ -29,12 +29,12 @@
    Fix: rename these generic selectors to match the BEM classes.
 */
 
-.title {
+.card__title {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.title.btn {
+.card__btn {
   font-size: 1rem;
   padding: 8px 16px;
   background: blue;
@@ -50,6 +50,11 @@
 */
 
 .card {
-  border: 2px solid #ccc;
+  border: 2px solid #CCCCCC;
   padding: 16px;
+}
+
+.card--active {
+  border: 2px solid blue;
+  padding:  16px;
 }
