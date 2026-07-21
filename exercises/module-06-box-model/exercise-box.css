@@ -11,8 +11,8 @@
 */
 
 .box-overflow {
-  width: 300px;
-  padding: 20px;
+  width: 278px;
+  padding: 10px;
   border: 2px solid #333;
   background: #e8f4f8;
 }
@@ -25,13 +25,13 @@
 */
 
 .box-a {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   background: #ffeaa7;
   padding: 16px;
 }
 
 .box-b {
-  margin-top: 30px;
+  margin-top: 70px;
   background: #dfe6e9;
   padding: 16px;
 }
@@ -48,4 +48,5 @@
   background: #74b9ff;
   padding: 8px;
   text-align: center;
+  display: inline-block;
 }
