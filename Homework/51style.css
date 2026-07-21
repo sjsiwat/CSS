@@ -1,0 +1,36 @@
+* {
+    margin-left: 20px;
+}
+
+
+
+.container {
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.card-text {
+    font-size: 12px;
+    
+
+}
+
+
+.card-text-bold {
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.card-text-highlight {
+    font-size: 36px;
+    font: bold;
+    color: black;
+    background-color: #6be880;
+    border-radius: 20px;
+    border: 0;
+    padding: 4px;
+    display:inline-block;
+
+}
